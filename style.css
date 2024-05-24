@@ -1137,6 +1137,13 @@ html{
     color: white;
 }
 
+@media only screen and (max-width: 480px) 
+{
+    .footer_text p{
+    font-size: 15px;
+    }
+}
+
 @media only screen and (min-width: 481px) and (max-width: 1024px)
 {
     .footer_text p{
