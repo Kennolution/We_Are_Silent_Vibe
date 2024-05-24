@@ -1087,6 +1087,11 @@ html{
     cursor: pointer;
 }
 
+.contact_button
+{
+    color: #3a796;
+}
+
 @media (max-width: 768px) {
     .contact_container {
         margin-top: 20px; 
