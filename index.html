@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="title" content="We Are Silent Vibe">
+        <title>We Are Silent Vibe</title>
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Lobster&family=Lugrasimo&display=swap" rel="stylesheet">
+        <link rel="icon" href="images/logo.png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+        <link rel="preload" as="image" href="./images/Front.png">
+
+        <style>
+            @keyframes rotate {
+                0% {
+                    transform: rotate(0deg);
+                }
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+            .logo {
+                width: 140px;
+                position: absolute;
+                top: 4%;
+                left: 10%;
+                animation: rotate 13s linear infinite;
+        }
+        </style>
+
+    </head>
+    <body>
+        <div class="preload" data-preaload>
+            <div class="circle"></div>
+            <p class="text">We Are Silent Vibe</p>
+        </div>
+
+        <div class="sideNav">
+            <ul>
+                <!-- Home -->
+                <li>
+                    <a href="#home" class="active">
+                        <span class='icon'><ion-icon 
+                        name="home-outline"></ion-icon></span>
+                        <span class="title">Home</span> 
+                    </a>
+                </li>
+                <!-- About Our Service -->
+                <li>
+                    <a href="#aboutourservice">
+                        <span class= 'icon'><ion-icon 
+                        name="information-circle-outline"></ion-icon></span>
+                        <span class="title">About Our Service</span>
+                    </a>
+                </li>
+                <!-- Previous Events -->
+                <li>
+                    <a href="#previousevents">
+                        <span class= 'icon'><ion-icon 
+                        name="images-outline"></ion-icon></span>
+                        <span class="title">Previous Events</span>
+                    </a>
+                </li>
+                <!-- Rental Options -->
+                <li>
+                    <a href="#rentaloptions">
+                    <span class= 'icon'><ion-icon 
+                    name="pricetag-outline"></ion-icon></span>
+                    <span class="title">Rental Options</span>
+                </a>
+                </li>
+                <!-- Contact Us -->
+                <li>
+                    <a href="#contactus">
+                        <span class= 'icon'><ion-icon 
+                        name="call-outline"></ion-icon></span>
+                        <span class="title">Contact Us</span>
+                    </a>
+                </li>
+            </ul> 
+            <div class="menuBtn" onclick="toggleMenu()">
+                <span class= 'menuIcon' id="menuIcon">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </span>
+            </div> 
+        </div>
+
+       
+        <!--Main-->
+        <section id="home"> 
+
+            <img src="images/logo.png" class="logo">
+
+            <div class="home_container conta_iner grid">
+                <div class="home-text"> <!--home_data-->
+
+                    <h1>We Are Silent Vibe</h1>
+                    <p>Experience the future of silent disco</p>
+
+                </div>
+        </section>
+            
+          <!--about-->
+        <section class="aboutourservice section" id="aboutourservice">
+            <div class="title-text">
+                <p>About Our Service</p>
+                <h1>We Bring The Beat</h1>
+            </div>
+
+            <div class="about-box">
+                <div class="abouts">
+                    <p>Welcome to Silent Vibe! We're your one-stop-shop for silent disco gear rentals in South Africa. 
+                        Our cutting-edge wireless headphones, transmitters and microphones guarantee an unforgettable audio experience for any event, big or small. 
+                        Whether you're hosting a private jol, beach party, corporate function, wedding, or festival, we've got you covered.</p>
+
+                    <p>Enjoy our silent disco equipment that allows multiple channels of music broadcasted simultaneously, giving everyone the freedom to jive to their own vibe. 
+                        It’s easy to setup with customizable options. Get in touch today and elevate your event with Silent Vibe!</p>
+                </div>
+                <div class="abouts-img">
+                    <img src="images/about.jpg">
+                </div>
+            </div>
+        </section>
+
+        <!--Events-->
+        <section id="previousevents">
+        <!---->
+        <section id="previousevents" class="containers">
+            <div class="text-center">
+                <p>Previous Events</p>
+                <h1>Gallery</h1>   
+            </div>
+
+            <div class="containers">
+                <div class="swiper previousevents-slider">
+                    <div class="swiper-wrapper">
+                        <!--Slide-start-->
+                        <div class="swiper-slide previousevents-slide">
+                            <div class="previousevents-slide-img">
+                                <img src="images/new.png" alt="Previousevents">
+                            </div>
+                            <div class="previousevents-slide-content">
+                                <div class="previousevents-slide-content-bottom">
+                                    <h2 class="image-name">
+                                        Sunset Beach
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Slide-End-->
+
+                        <!--Slide-start-->
+                        <div class="swiper-slide previousevents-slide">
+                            <div class="previousevents-slide-img">
+                                <img src="images/Beach411.jpg" alt="Previousevents">
+                            </div>
+                            <div class="previousevents-slide-content">
+                                <div class="previousevents-slide-content-bottom">
+                                    <h2 class="image-name">
+                                        Sunset Beach
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Slide-End-->
+        
+                        <!--Slide-start-->
+                        <div class="swiper-slide previousevents-slide">
+                            <div class="previousevents-slide-img">
+                                <img src="images/Beach8.jpg" alt="Previousevents">
+                            </div>
+                            <div class="previousevents-slide-content">
+                                <div class="previousevents-slide-content-bottom">
+                                    <h2 class="image-name">
+                                        Sunset Beach
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Slide-End-->
+                        
+                        <!--Slide-start-->
+                        <div class="swiper-slide previousevents-slide">
+                            <div class="previousevents-slide-img">
+                                <img src="images/Beach6.jpg" alt="Previousevents">
+                            </div>
+                            <div class="previousevents-slide-content">
+                                <div class="previousevents-slide-content-bottom">
+                                    <h2 class="image-name">
+                                        Sunset Beach
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Slide-End-->
+
+                        <!--Slide-start-->
+                        <div class="swiper-slide previousevents-slide">
+                            <div class="previousevents-slide-img">
+                                <img src="images/Beach23.png" alt="Previousevents">
+                            </div>
+                            <div class="previousevents-slide-content">
+                                <div class="previousevents-slide-content-bottom">
+                                    <h2 class="image-name">
+                                        Blouberg Beach
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Slide-End-->
+
+
+                        <!--Slide-start-->
+                        <div class="swiper-slide previousevents-slide">
+                            <div class="previousevents-slide-img">
+                                <img src="images/blouberg2.png" alt="Previousevents">
+                            </div>
+                            <div class="previousevents-slide-content">
+                                <div class="previousevents-slide-content-bottom">
+                                    <h2 class="image-name">
+                                        Blouberg Beach
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Slide-End-->
+                        
+                        <!--Slide-start-->
+                        <div class="swiper-slide previousevents-slide">
+                            <div class="previousevents-slide-img">
+                                <img src="images/image2335.png" alt="Previousevents">
+                            </div>
+                            <div class="previousevents-slide-content">
+                                <div class="previousevents-slide-content-bottom">
+                                    <h2 class="image-name">
+                                        Eden On The Bay
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Slide-End-->
+
+                        <!--Slide-start-->
+                        <div class="swiper-slide previousevents-slide">
+                            <div class="previousevents-slide-img">
+                                <img src="images/night_beach.png" alt="Previousevents">
+                            </div>
+                            <div class="previousevents-slide-content">
+                                <div class="previousevents-slide-content-bottom">
+                                    <h2 class="image-name">
+                                        Strands
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Slide-End-->
+                    </div>
+                    <div class="previousevents-slider-control">
+                        <div class="swiper-button-prev slider-arrow">
+                            <ion-icon name="arrow-back-outline"></ion-icon>
+                        </div>
+
+                        <div class="swiper-button-next slider-arrow">
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Last Addition-->
+        <section id="rentaloptions">
+
+            <div class="rentals">
+                <p>Rental Options</p>
+                <h1>Custom Rental Plans</h1>
+            </div>
+
+            <div class="Rental-Options">
+                <div class="grid">
+                    <div class="box essential">
+                        <div class="title">Essential</div>
+                        <div class="price">
+                            <b>R700.00</b>
+                            <span>per</span>
+                        </div>
+                        <div class="feature">
+                            <div>10 Headphones</div>
+                            <div>1 Transmitter</div>
+                        </div>
+                    </div>
+            
+                    <div class="box standard">
+                        <div class="title">Standard</div>
+                        <div class="price">
+                            <b>R1200.00</b>
+                            <span>per</span>
+                        </div>
+                        <div class="feature">
+                            <div>20 Headphones</div>
+                            <div>1 Transmitter</div>
+                        </div>
+                    </div>
+            
+                    <div class="box silver">
+                        <div class="title">Silver</div>
+                        <div class="price">
+                            <b>R1800.00</b>
+                            <span>per</span>
+                        </div>
+                        <div class="feature">
+                            <div>30 Headphones</div>
+                            <div>2 Transmitter</div>
+                        </div>
+                    </div>
+            
+                    <div class="box gold">
+                        <div class="title">Gold</div>
+                        <div class="price">
+                            <b>R2300.00</b>
+                            <span>per</span>
+                        </div>
+                        <div class="feature">
+                            <div>40 Headphones</div>
+                            <div>2 Transmitters</div>
+                        </div>
+                    </div>
+            
+                    <div class="box platinum">
+                        <div class="title">Platinum</div>
+                        <div class="price">
+                            <b>R2800.00</b>
+                            <span>per</span>
+                        </div>
+                        <div class="feature">
+                            <div>50 Headphones</div>
+                            <div>3 Transmitter</div>
+                        </div>
+                    </div>
+            
+                    <div class="box diamond">
+                        <div class="title">Diamond</div>
+                        <div class="price">
+                            <b>R3500.00</b>
+                            <span>per</span>
+                        </div>
+                        <div class="feature">
+                            <div>60 Headphones</div>
+                            <div>3 Transmitter</div>
+                        </div>
+                    </div>
+            
+                    <div class="box elite">
+                        <div class="title">Elite</div>
+                        <div class="price">
+                            <b>R5000.00</b>
+                            <span>per</span>
+                        </div>
+                        <div class="feature">
+                            <div>100 Headphones</div>
+                            <div>3 Transmitter</div>
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+            </div>
+
+        </section>
+
+        <!--Contact-->
+        <section id="contactus">
+
+            <div class="contact-title-text">
+                <p>Contact Us</p>
+                <h1>Rent Today</h1>
+            </div>
+        
+            <div class="contact_container container grid">
+                <div class="contact_content">
+                    <div class="contact_info">
+                       
+                        <div class="contact_card">
+                            <h3 class="contact_card-title">Whatsapp</h3>
+                            <span class="contact_card_data">+27 76 138 4335</span>                       
+                            <span class="contact_button">
+                                <!--Icon section-->
+                            </span>
+                        </div>
+
+                        <div class="contact_card">
+                            <h3 class="contact_card-title">Email</h3>
+                            <span class="contact_card_data">wearesilentvibe@gmail.com</span>                         
+                            <a class="contact_button" href="mailto:wearesilentvibe@gmail.com">
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </a>
+                        </div>
+
+                        <div class="contact_card">
+                            <h3 class="contact_card-title">facebook</h3>
+                            <span class="contact_card_data">facebook.com</span>                           
+                            <a class="contact_button" href="https://facebook.com/profile.php?id61557821817674&mibextid=LQQJ4d">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                        </div>
+
+                        
+                        <div class="contact_card">
+                            <h3 class="contact_card-title">Instagram</h3>
+                            <span class="contact_card_data"></span>                          
+                            <a class="contact_button" href="https://www.instagram.com/wearesilentvibe/">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </div>
+                    </div>  
+                </div>
+                <div class="contact_content">
+                </div>
+            </div>
+        </section>  
+
+        <footer id="footer">
+            <div class="footer_text">
+                <p class="footer_copyright">&#169;wearesilentvibe. All right reserved</p>
+            </div>
+        </footer>
+        <!---->
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
