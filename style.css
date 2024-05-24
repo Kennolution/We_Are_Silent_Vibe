@@ -1087,7 +1087,7 @@ html{
     cursor: pointer;
 }
 
-.contact_button
+.contact_button:hover
 {
     color: #3a796;
 }
