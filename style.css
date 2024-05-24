@@ -996,7 +996,7 @@ html{
     background-color: #020b13;
     background-position: center;
     background-size: cover;
-    height: auto; 
+    height: 90vh; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1135,6 +1135,13 @@ html{
 .footer_text p{
     font-size: 25px;
     color: white;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px)
+{
+    .footer_text p{
+        margin-bottom: -7rem;
+    }
 }
 
 @media screen and (max-width: 770px) {
