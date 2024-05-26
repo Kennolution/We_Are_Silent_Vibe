@@ -316,13 +316,13 @@ body{
     .sideNav 
     {
         right: -75px;
-        top: 170px;
-        bottom: 170px;
+        top: 100px;
+        bottom: 100px;
         background-color: rgba(37, 47, 56, 0.8);
     }
     .sideNav.show {
         right: 0; /* Set left to 0 when sideNav is expanded */
-        width: 80vw; /* Set width to 90% of viewport width */
+        width: 77vw; /* Set width to 90% of viewport width */
     }
     /* Change menu icon to close-outline when sideNav is expanded */
 
