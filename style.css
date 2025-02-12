@@ -466,6 +466,23 @@ body.nav-active { overflow: hidden; }
     }
 }
 
+.Headphonelogo{
+    width: 140px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+}
+
+@media only screen and (max-width: 480px) 
+{
+    #home .Headphonelogo {
+        width: 100px;
+        position: absolute;
+        top: 2%;
+        left: 5%;
+    }
+}
+
 .home-text{
     text-align: center;
     color: #03a796;
