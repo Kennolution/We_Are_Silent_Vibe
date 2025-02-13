@@ -459,9 +459,9 @@ body.nav-active { overflow: hidden; }
 @media only screen and (max-width: 480px) 
 {
     #home .logo {
-        width: 70px;
+        width: 60px;
         position: absolute;
-        top: 2%;
+        top: 3.5%;
         left: 5%;
     }
 }
@@ -469,7 +469,7 @@ body.nav-active { overflow: hidden; }
 .Headphonelogo{
     width: 140px;
     position: absolute;
-    top: 2%;
+    top: 2.5%;
     left: 10%;
 }
 
